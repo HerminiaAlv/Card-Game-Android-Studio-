@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/stats_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="normal"
+        android:layout_alignParentTop="true"
+        android:padding="10dp"
+        android:text="@string/stat"
+    />
+
+    <TextView
+        android:id="@+id/winner_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#FF5722"
+        android:gravity="center"
+        android:layout_below="@id/stats_text_view"
+        android:layout_marginTop="20dp"
+        android:visibility="invisible"
+        />
+
+</RelativeLayout>

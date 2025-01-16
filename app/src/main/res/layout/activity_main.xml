@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:columnCount="2"
+        android:rowCount="5"
+        android:padding="10dp"
+        android:alignmentMode="alignMargins"
+        android:columnOrderPreserved="false">
+        <!-- ImageButtons for the Memory Match game will be added programmatically -->
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/textViewStats"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/string_1"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnShowStats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/stat_button"
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btnSwitchPlayer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/switch_button"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp" />
+
+    <!-- ImageView for show statistics -->
+    <ImageView
+        android:id="@+id/gifImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

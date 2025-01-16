@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Memory Match Game</string>
+
+    <!-- activity_statistics.xml  -->
+    <string name="stat">Statistics</string>
+
+    <!-- activity_main.xml  -->
+    <string name="string_1">Matches: 0, Attempts: 0</string>
+    <string name="stat_button">Show Statistics</string>
+    <string name="switch_button">Switch Player</string>
+
+
+</resources>
